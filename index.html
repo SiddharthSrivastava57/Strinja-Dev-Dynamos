@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strinja</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="icon.png"
+      style="border-radius: 50%"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="animated-cursor"></div>
+
+    <button onclick="topFunction()" id="go-to-top-btn" title="Go to top">
+      <img src="assets/up.png" alt="" />
+    </button>
+
+    <button class="whatsapp-button">
+      <a
+        href="//api.whatsapp.com/send?phone=7879765601&text=I'm [Your Name]. Your art piece, [Art Piece Name], caught my eye on Strinja. It's truly captivating. Could you share details on availability, pricing, and the acquisition process? I'd love to add it to my collection."
+        target="_blank"
+      >
+        <img src="assets/wa.webp" alt="" class="wa-img" />
+      </a>
+    </button>
+
+    <div class="home">
+      <div id="navbar">
+        <img src="assets/logo.png" alt="Icon" class="navbar-icon" />
+        <a href="#home" class="underline">DISCOVER</a>
+        <a href="#gallery" class="underline">GALLERY</a>
+        <a href="#about" class="underline">ABOUT US</a>
+        <a href="#contact" class="underline">CONTACT US</a>
+      </div>
+
+      <div class="mid-logo">
+        <img src="assets/mid-logo.png" alt="" />
+      </div>
+
+      <div class="content">
+        <div>
+          <p>
+            Step into Strinja, an online art sanctuary where strings dance,
+            creating captivating masterpieces. Elevate your space with unique,
+            handcrafted artworks that weave magic and unleash the creativity
+            within. Explore Strinja today!
+          </p>
+        </div>
+      </div>
+
+      <div class="bgimages bg-1"></div>
+
+      <div class="bgimages bg-2"></div>
+
+      <div class="bgimages bg-3"></div>
+
+      <div class="bgimages bg-4"></div>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <h2>GALLERY</h2>
+
+      <div class="wa-gallery">
+        <div class="card">
+          <img src="assets/1.jpg" alt="" class="visible-img" />
+          <h1>Einstein's Elegance</h1>
+          <p class="price">$100</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/2.jpg" alt="" class="visible-img" />
+          <h1>Cillian's Canvas</h1>
+          <p class="price">$120</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/3.jpg" alt="" class="visible-img" />
+          <h1>Stringed Icons</h1>
+          <p class="price">$150</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/4.jpg" alt="" class="visible-img" />
+          <h1>Faces in Threads</h1>
+          <p class="price">$100</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/5.jpg" alt="" class="visible-img" />
+          <h1>Threaded Legends</h1>
+          <p class="price">$120</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/12.jpg" alt="" class="visible-img" />
+          <h1>Celestial Canines</h1>
+          <p class="price">$110</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/14.jpg" alt="" class="visible-img" />
+          <h1>The Honest Eyes</h1>
+          <p class="price">$150</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/13.jpg" alt="" class="visible-img" />
+          <h1>Symphony of Patterns</h1>
+          <p class="price">$100</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/10.jpg" alt="" class="visible-img" />
+          <h1>Motherly Threads</h1>
+          <p class="price">$110</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/11.jpg" alt="" class="visible-img" />
+          <h1>Ethereal Locks</h1>
+          <p class="price">$120</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="card">
+          <img src="assets/9.jpg" alt="" class="visible-img" />
+          <h1>Paternal Embrace</h1>
+          <p class="price">$100</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="submit-work">
+      <div class="submit-text">
+        <p>
+          At Strinja, we believe in the power of art to inspire, provoke
+          thought, and evoke emotions. We invite artists of all mediums and
+          styles to share their work with our global community.
+        </p>
+      </div>
+      <div class="vl"></div>
+      <div class="submit-button">
+        <input type="submit" value="Let's Collaborate" />
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <h1>MESSAGE FROM FOUNDER</h1>
+
+      <div class="founder-note">
+        <div>
+          <p>
+            " I am thrilled to welcome you to the Strinja family, a venture that
+            has been a dream for a while. As a founder, I want to share why we
+            embarked on this journey. Each string of art creates thousands of
+            memories, these arts are generally made by unemployed, uneducated
+            women in rural and urban areas with the help of some engineers. Each
+            customer is helping in women empowerment "
+          </p>
+        </div>
+      </div>
+
+      <div class="founder-img">
+        <img src="assets/founder.jpg" alt="" />
+        <h1>SHUBHAM SINGH</h1>
+        <p class="title">FOUNDER, STRINJA</p>
+        <p>SVNIT SURAT</p>
+        <div>
+          <a href=""><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mission">
+      <div class="mission-card">
+        <div class="mission-card-inner">
+          <div class="mission-card-front">
+            <img src="assets/mission.png" alt="" />
+            <h1>MISSION</h1>
+          </div>
+          <div class="mission-card-back">
+            <h1>MISSION</h1>
+            <p>
+              Promote job opportunities for the uneducated, advocate handmade
+              arts, and ensure global accessibility at affordable prices.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mission-card">
+        <div class="mission-card-inner">
+          <div class="mission-card-front">
+            <img src="assets/vision.png" alt="" />
+            <h1>VISION</h1>
+          </div>
+          <div class="mission-card-back">
+            <h1>VISION</h1>
+            <p>
+              To keep spirit of traditional culture of hand made arts alive and
+              create a sustainable eco friendly environment.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mission-card">
+        <div class="mission-card-inner">
+          <div class="mission-card-front">
+            <img src="assets/values.png" alt="" />
+            <h1>VALUES</h1>
+          </div>
+          <div class="mission-card-back">
+            <h1>VALUES</h1>
+            <p>
+              Preserving traditional arts, we champion sustainable, eco-friendly
+              practices, empowering artisans globally.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pre-size-guide">
+      <h1>
+        Discover the perfect fit for your artistic journey with our
+        comprehensive size guide, ensuring your creativity knows no bounds.
+      </h1>
+    </div>
+
+    <div class="size-guide">
+      <div class="size-container">
+        <div id="size-1" class="card-1">
+          <img src="assets/1.jpg" alt="" class="size-img" />
+          <div class="size-text">
+            LARGE
+          </div>
+        </div>
+        <div id="size-2" class="card-1">
+          <img src="assets/2.jpg" alt="" class="size-img" />
+          <div class="size-text">
+            OVERSIZED
+          </div>
+        </div>
+        <div id="size-3" class="card-1">
+          <img src="assets/3.jpg" alt="" class="size-img" />
+          <div class="size-text">
+            MEDIUM
+          </div>
+        </div>
+        <div id="size-4" class="card-1">
+          <img src="assets/4.jpg" alt="" class="size-img" />
+          <div class="size-text">
+            SMALL
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review">
+      <h1>REVIEWS</h1>
+
+      <div class="slideshow">
+        <div class="mySlides card2">
+          <img src="assets/profile1.png" />
+          <div>
+            <h2>ANGELA</h2>
+            <h4>TEXAS</h4>
+          </div>
+          <p>
+            "Strinja's art pieces are a visual feast! Each creation tells a
+            unique story, blending vibrant colors and intricate details. It's
+            like stepping into a world where imagination knows no bounds.
+            Absolutely love the way they push the boundaries of conventional
+            art!"
+          </p>
+        </div>
+        <div class="mySlides card2">
+          <img src="assets/profile2.png" />
+
+          <div>
+            <h2>EDWARD</h2>
+            <h4>NEW YORK</h4>
+          </div>
+          <p>
+            "Strinja's artwork is a breath of fresh air in the art world. Their
+            innovative approach to blending traditional techniques with modern
+            concepts is truly commendable. Each piece is a masterpiece that
+            evokes emotion and sparks curiosity. A must-see for art
+            enthusiasts!"
+          </p>
+        </div>
+        <div class="mySlides card2">
+          <img src="assets/profile3.png" />
+
+          <div>
+            <h2>KANE</h2>
+            <h4>NEW JERSEY</h4>
+          </div>
+          <p>
+            "Strinja has a way of capturing the essence of emotion in their art.
+            The pieces are not just visually stunning but also emotionally
+            resonant. It's like they've bottled up feelings and translated them
+            onto canvas. A true testament to the power of artistic expression!"
+          </p>
+        </div>
+        <div class="mySlides card2">
+          <img src="assets/profile4.png" />
+
+          <div>
+            <h2>CHRISTOPHER</h2>
+            <h4>CHICAGO</h4>
+          </div>
+          <p>
+            "Strinja's art has the ability to transport you to different
+            dimensions. The surreal landscapes and dreamlike scenes are
+            mesmerizing. It's evident that each piece is created with passion
+            and a deep understanding of the art form. A startup that's
+            redefining the art scene!"
+          </p>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <div class="write-review">
+      <button class="open-button" onclick="openForm()">WRITE A REVIEW</button>
+
+      <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <textarea
+            placeholder="Write your comments here..."
+            name="msg"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn">SUBMIT</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">
+            CLOSE
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h1>CONTACT</h1>
+      <div class="contact-info"><img src="assets/phone.png" alt="" /></div>
+      <div class="contact-info"><img src="assets/email.png" alt="" /></div>
+      <div class="contact-info"><img src="assets/address.png" alt="" /></div>
+      <div class="contact-info"><h3>PHONE</h3></div>
+      <div class="contact-info"><h3>E-MAIL</h3></div>
+      <div class="contact-info"><h3>ADDRESS</h3></div>
+      <div class="contact-info"><p>123-456-7890</p></div>
+      <div class="contact-info"><p>store@strinja.com</p></div>
+      <div class="contact-info">
+        <p>Bhabha Bhavan,SVNIT,Surat,Gujarat,395007</p>
+      </div>
+    </div>
+
+    <div class="message" id="contact">
+      <h1>LEAVE A MESSAGE</h1>
+      <div class="message-box">
+        <form action="/action_page.php">
+          <input type="text" id="name" name="name" placeholder="Name" />
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder="Phone Number"
+          />
+          <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+          </select>
+
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Comment"
+            style="height: 200px"
+          ></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq-container">
+        <h1>FAQ's</h1>
+
+        <button class="question">How do I place an order on Strinja?</button>
+        <div class="answer">
+          <p>
+            Ordering on Strinja is simple! Just browse our collection, select
+            your favorite design, choose your customization options, and add it
+            to your cart. Follow the checkout process to complete your order.
+          </p>
+        </div>
+
+        <button class="question">
+          Can I request a custom string art design?
+        </button>
+        <div class="answer">
+          <p>
+            Absolutely! We love creating custom pieces. Contact our customer
+            support team with your ideas and specifications, and we'll work
+            together to bring your vision to life.
+          </p>
+        </div>
+
+        <button class="question">
+          What materials are used in Strinja's string art?
+        </button>
+        <div class="answer">
+          <p>
+            We use high-quality materials, including durable wood boards and
+            premium colorful threads, to ensure the longevity and vibrancy of
+            our string art creations.
+          </p>
+        </div>
+
+        <button class="question">
+          How long does it take to receive my order?
+        </button>
+        <div class="answer">
+          <p>
+            The production time varies based on the complexity of the design and
+            any customization requests. Typically, orders are shipped within 1-2
+            weeks. You can check the estimated delivery date during the checkout
+            process.
+          </p>
+        </div>
+
+        <button class="question">What if I receive a damaged item?</button>
+        <div class="answer">
+          <p>
+            We take great care in packaging our products, but if your item
+            arrives damaged, please contact our customer support with photos of
+            the damage. We'll gladly assist you in resolving the issue.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.8117927424264!2d72.78573337553247!3d21.159886980522437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d620f8a7dff%3A0x27281aed487eaeb9!2sBhabha%20Bhavan!5e0!3m2!1sen!2sin!4v1703876083791!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="maps"
+        ></iframe>
+      </div>
+      <div class="left-footer">
+        <div>
+          <ul>
+            <li>ABOUT US</li>
+            <li>OUR TEAM</li>
+            <li>CONTACT US</li>
+            <li>TERMS OF USE</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>ENQUIRIES</h4>
+          <p>For all press enquiries please contact us at store@strinja.com</p>
+        </div>
+      </div>
+
+      <div class="mid-footer">
+        <h5>DROP A MAIL HERE !</h5>
+        <div class="mail-container">
+          <input
+            type="text"
+            placeholder="Enter your email address"
+            class="mailbox"
+          />
+        </div>
+        <p>Stay up to date with gallery exhibitions, news and events.</p>
+      </div>
+
+      <div class="right-footer">
+        <p>FOLLOW US</p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/strinja.shop/"
+              ><img src="assets/insta.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="assets/yt.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="linkedin.com/in/strinja-shop-b37a7628b"
+              ><img src="assets/linkedin.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="assets/pin.png" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bottom">
+        <ul>
+          <li class="underline">PRIVACY</li>
+          <li class="underline">TERMS & CONDITIONS</li>
+          <li class="underline">COOKIE POLICY</li>
+          <li class="underline">ART GALLERY</li>
+          <li class="underline">COLLECTIONS</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
